@@ -938,18 +938,20 @@ export default function PPPKTenagaKesehatan() {
 		element.scrollIntoView({ behavior: "smooth" });
 	};
 	return (
-		<div className="w-screen h-screen scroll-smooth">
+		<div className="w-screen h-screen scroll-smooth dark:bg-[#353941]">
 			<div className="container mx-auto p-10 md:px-20 grid gap-10">
-				<h1 className="text-center font-bold text-3xl text-[#40588A]">Frequently Asked Questions (PPPK Tenaga Kesehatan)</h1>
+				<h1 className="text-center font-bold text-3xl text-[#40588A] dark:text-gray-200">
+					Frequently Asked Questions (PPPK Tenaga Kesehatan)
+				</h1>
 
 				<div className="grid grid-cols-12 gap-5">
 					<div className="col-span-4 flex flex-col">
-						<div className="w-full flex flex-col border-2 rounded-lg">
+						<div className="w-full flex flex-col border-2 rounded-md">
 							{link.map((e, i) => (
 								<span
 									key={i}
 									onClick={() => scroolTo(e.id)}
-									className={`text-blue-700 hover:text-blue-800 hover:font-semibold px-4 py-2 ${
+									className={`text-blue-700 dark:text-neutral-100 hover:text-blue-800 hover:font-bold px-4 py-2 ${
 										e.title !== "Ketentuan Nilai Ambang Batas (NAB)" && "border-b-2"
 									}`}
 								>
@@ -960,10 +962,10 @@ export default function PPPKTenagaKesehatan() {
 					</div>
 
 					{/* ACCORDION */}
-					<div className="col-span-8 border-2 rounded-lg px-3 h-[350px] overflow-y-scroll flex flex-col gap-5">
+					<div className="col-span-8 border-2 rounded-md px-3 h-[450px] overflow-y-scroll flex flex-col gap-5">
 						{data.map((e, i) => (
 							<div key={i} id={e.id}>
-								<h1 className="text-xl font-bold text-slate-700 px-3 py-2">{e.section}</h1>
+								<h1 className="text-xl font-bold text-slate-700 dark:text-neutral-100 px-3 py-2">{e.section}</h1>
 
 								<div className="bg-[#EFFDF5]">
 									{e.data.map((accordion, index) => (

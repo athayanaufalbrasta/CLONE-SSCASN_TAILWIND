@@ -1,7 +1,7 @@
 import Tutor from "../assets/tutor.mp4";
 export default function About() {
 	return (
-		<section className="min-w-screen px-5 md:px-20 bg-[#1c7c54]">
+		<section className="min-w-screen px-5 md:px-20 bg-[#1c7c54] dark:bg-[#065471]">
 			<div className="container mx-auto py-10 text-white grid grid-cols-1 gap-8">
 				<div className="grid grid-cols-1 gap-8">
 					<div className="grid grid-cols-1 gap-8 text-base md:text-[1.1rem]">

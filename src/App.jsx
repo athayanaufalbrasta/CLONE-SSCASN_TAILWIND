@@ -32,7 +32,7 @@ function App() {
 		return () => clearInterval(timeout);
 	}, [path]);
 	return loading ? (
-		<div className="flex justify-center items-center w-screen h-screen">
+		<div className="flex justify-center items-center w-screen h-screen dark:bg-[#353941]">
 			<Loading speedMultiplier={1.75} color="#0ea5e9"/>
 		</div>
 	) : (

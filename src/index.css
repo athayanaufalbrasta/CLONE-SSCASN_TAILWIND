@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow-inner{
+  box-shadow: inset -10px 1px 30px rgba(0, 0, 0, .8);
+}
+.shadow-outer{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}

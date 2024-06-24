@@ -2,7 +2,7 @@ import { SlMagnifier } from "react-icons/sl";
 
 export default function Service() {
 	return (
-		<section className="w-screen bg-[#5776ba] px-16 lg:px-20">
+		<section className="w-screen bg-[#5776ba] dark:bg-[#393E6F] px-16 lg:px-20">
 			<div className="container mx-auto grid gap-3 lg:grid-cols-12 text-white py-10">
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-3 lg:col-span-10">
 					<div className="slideDown flex flex-col col-span-2 lg:col-span-1">
@@ -43,7 +43,7 @@ export default function Service() {
 				</div>
 
 				<button className="slideDown lg:h-[35%] xl:h-[43%] lg:col-span-2 bg-slate-800 rounded-sm text-white py-2 flex gap-1 justify-center items-center">
-					<SlMagnifier stroke="2" size={10} />
+					<SlMagnifier size={15} />
 					<span>Cari</span>
 				</button>
 			</div>

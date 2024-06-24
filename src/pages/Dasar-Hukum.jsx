@@ -64,32 +64,37 @@ export default function DasarHukum() {
 		],
 	];
 	return (
-		<div className="slideUp min-h-screen container mx-auto py-10 md:px-20 grid grid-cols-1 gap-10 overflow-x-auto">
-			<h1 className="text-[#40588A] text-2xl md:text-4xl font-bold text-center">Dasar Hukum</h1>
+		<section className="slideUp min-h-screen py-10 md:px-20 overflow-x-auto dark:bg-[#353941]">
+			<div className="container mx-auto grid grid-cols-1 gap-10">
+				<h1 className="text-[#40588A] text-2xl md:text-4xl font-bold text-center dark:text-blue-600">Dasar Hukum</h1>
 
-			<table className="w-full table-auto">
-				<thead>
-					<tr className="border-b-2 hover:bg-slate-100 font-medium text-gray-500 text-lg">
-						<th className="px-4">No. Peraturan</th>
-						<th className="px-4">Judul</th>
-						<th className="px-4">Tautan</th>
-					</tr>
-				</thead>
-
-				<tbody>
-					{data.map((e, i) => (
-						<tr key={i} className="border-b-2 hover:bg-slate-100 text-center font-medium text-gray-500 text-sm md:text-lg">
-							<td className="px-4">{e[0]}</td>
-							<td className="px-4">{e[1]}</td>
-							<td className="px-4 text-center">
-								<a target="_blank" href={e[2]}>
-									<Logo size={20} color="#40588A" />
-								</a>
-							</td>
+				<table className="w-full table-auto">
+					<thead>
+						<tr className="border-b-2 hover:bg-slate-100 font-medium text-gray-500 dark:text-neutral-100 text-lg">
+							<th className="px-4">No. Peraturan</th>
+							<th className="px-4">Judul</th>
+							<th className="px-4">Tautan</th>
 						</tr>
-					))}
-				</tbody>
-			</table>
-		</div>
+					</thead>
+
+					<tbody>
+						{data.map((e, i) => (
+							<tr
+								key={i}
+								className="border-b-2 hover:bg-slate-100 text-center font-medium text-gray-500 dark:text-neutral-300 text-sm md:text-lg"
+							>
+								<td className="px-4">{e[0]}</td>
+								<td className="px-4">{e[1]}</td>
+								<td className="px-4 text-center">
+									<a target="_blank" href={e[2]}>
+										<Logo size={20} className="text-[#40588A] dark:text-blue-600" />
+									</a>
+								</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+			</div>
+		</section>
 	);
 }

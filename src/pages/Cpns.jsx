@@ -44,9 +44,14 @@ export default function Cpns() {
 					title: "Apakah SSCASN itu?",
 					content: (
 						<p>
-							SSCASN atau Sistem Seleksi Calon Aparatur Sipil Negara adalah situs resmi pendaftaran ASN secara nasional sebagai pintu pendaftaran pertama seleksi ASN ke seluruh
-							instansi baik Pusat maupun Daerah dan dikelola oleh Badan Kepegawaian Negara RI sebagai Panitia Seleksi Penerimaan Nasional yang dapat diakses di{" "}
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://sscasn.bkn.go.id">
+							SSCASN atau Sistem Seleksi Calon Aparatur Sipil Negara adalah situs resmi pendaftaran ASN secara nasional
+							sebagai pintu pendaftaran pertama seleksi ASN ke seluruh instansi baik Pusat maupun Daerah dan dikelola
+							oleh Badan Kepegawaian Negara RI sebagai Panitia Seleksi Penerimaan Nasional yang dapat diakses di{" "}
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://sscasn.bkn.go.id"
+							>
 								{" "}
 								https://sscasn.bkn.go.id{" "}
 							</a>
@@ -80,7 +85,11 @@ export default function Cpns() {
 					content: (
 						<>
 							Silahkan akses halaman Helpdesk SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>
@@ -91,7 +100,8 @@ export default function Cpns() {
 
 				{
 					title: "Bagaimana pengisian data “Nama” yang benar?",
-					content: "Pada kolom (Nama), yang diisikan adalah nama Anda sesuai yang tertera pada ijazah Anda tanpa gelar.",
+					content:
+						"Pada kolom (Nama), yang diisikan adalah nama Anda sesuai yang tertera pada ijazah Anda tanpa gelar.",
 				},
 				{
 					title: "Apakah saya dapat melamar lebih dari 1 (satu) jabatan?",
@@ -100,7 +110,8 @@ export default function Cpns() {
 				},
 				{
 					title: "Apakah yang dimaksud dengan periode pendaftaran?",
-					content: "Periode pendaftaran adalah satu kurun waktu tertentu dimana beberapa instansi yang membuka pendaftaran pada waktu yang bersamaan.",
+					content:
+						"Periode pendaftaran adalah satu kurun waktu tertentu dimana beberapa instansi yang membuka pendaftaran pada waktu yang bersamaan.",
 				},
 				{
 					title: "Apakah yang dimaksud dengan formasi khusus?",
@@ -132,7 +143,11 @@ export default function Cpns() {
 							penambahan referensi (misalnya lahirnya diluar Indonesia) maka dapat melakukan permintaan <br />
 							penambahan data tempat lahir dengan menuju ke halaman Helpdesk SSCASN <br />
 							di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>
@@ -145,7 +160,11 @@ export default function Cpns() {
 					content: (
 						<>
 							Silahkan akses halaman Helpdesk SSCASN di{" "}
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>
@@ -154,7 +173,8 @@ export default function Cpns() {
 					),
 				},
 				{
-					title: "Setelah melakukan pendaftaran akun SSCASN, apakah saya bisa langsung login untuk melanjutkan pengisian pendaftaran?",
+					title:
+						"Setelah melakukan pendaftaran akun SSCASN, apakah saya bisa langsung login untuk melanjutkan pengisian pendaftaran?",
 					content:
 						"Setelah melakukan pendaftaran akun SSCASN, maka Anda dapat langsung melakukan pengisian pendaftaran dengan login menggunakan NIK serta password yang sudah dibuat di halaman akun.",
 				},
@@ -179,7 +199,11 @@ export default function Cpns() {
 					content: (
 						<p>
 							Silahkan login ke halaman
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://daftar-sscasn.bkn.go.id/login">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://daftar-sscasn.bkn.go.id/login"
+							>
 								{" "}
 								https://daftar-sscasn.bkn.go.id/login{" "}
 							</a>
@@ -192,7 +216,11 @@ export default function Cpns() {
 					content: (
 						<p>
 							Silahkan login ke halaman
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://daftar-sscasn.bkn.go.id/login">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://daftar-sscasn.bkn.go.id/login"
+							>
 								{" "}
 								https://daftar-sscasn.bkn.go.id/login{" "}
 							</a>
@@ -240,11 +268,13 @@ export default function Cpns() {
 				},
 				{
 					title: "Saya sudah melamar secara online, apakah perlu mengirimkan berkas fisik untuk seleksi administrasi?",
-					content: "Berkas fisik untuk seleksi administrasi tergantung pada kebutuhan masing-masing instansi. Untuk itu perhatikan pengumuman dari masing-masing instansi.",
+					content:
+						"Berkas fisik untuk seleksi administrasi tergantung pada kebutuhan masing-masing instansi. Untuk itu perhatikan pengumuman dari masing-masing instansi.",
 				},
 				{
 					title: "Apakah saya dapat mengganti dokumen yang sudah saya unggah?",
-					content: "Dokumen yang sudah diunggah masih dapat diganti selama Anda belum klik “Akhiri Pendaftaran” pada halaman Pendaftaran.",
+					content:
+						"Dokumen yang sudah diunggah masih dapat diganti selama Anda belum klik “Akhiri Pendaftaran” pada halaman Pendaftaran.",
 				},
 			],
 		},
@@ -254,7 +284,8 @@ export default function Cpns() {
 			id: "syarat-daftar",
 			data: [
 				{
-					title: "Syarat Daftar Siapa saja yang dapat mendaftar pada Seleksi CPNS 2023? Berapa batas usia Pelamar yang dapat mendaftar pada Seleksi CPNS 2023?",
+					title:
+						"Syarat Daftar Siapa saja yang dapat mendaftar pada Seleksi CPNS 2023? Berapa batas usia Pelamar yang dapat mendaftar pada Seleksi CPNS 2023?",
 					content:
 						"Warga Negara Indonesia yang berkeinginan dan memenuhi syarat sesuai peraturan masing-masing instansi (Formasi, Jabatan, dll) selama batas usia yang dipersyaratkan terpenuhi.",
 				},
@@ -268,7 +299,8 @@ export default function Cpns() {
 					content: (
 						<p>
 							1. Tidak pernah dipidana dengan pidana penjara 2 tahun atau lebih; <br />
-							2. Tidak pernah diberhentikan dengan hormat tidak atas permintaan sendiri atau dengan tidak hormat sebagai PNS/Prajurit TNI/Kepolisian Negara RI;
+							2. Tidak pernah diberhentikan dengan hormat tidak atas permintaan sendiri atau dengan tidak hormat sebagai
+							PNS/Prajurit TNI/Kepolisian Negara RI;
 							<br />
 							3. Tidak pernah diberhentikan tidak dengan hormat sebagai pegawai swasta;
 							<br />
@@ -284,18 +316,22 @@ export default function Cpns() {
 				},
 				{
 					title: "Bagaimana jika KTP saya belum selesai dicetak oleh Dinas Kependudukan?",
-					content: "Pelamar dapat mengunggah Surat Keterangan Kependudukan sebagai pengganti KTP untuk syarat pendaftaran CPNS 2023.",
+					content:
+						"Pelamar dapat mengunggah Surat Keterangan Kependudukan sebagai pengganti KTP untuk syarat pendaftaran CPNS 2023.",
 				},
 				{
 					title: "Apakah diperbolehkan menggunakan Surat Keterangan Lulus dari Universitas untuk syarat pendaftaran?",
 					content: "Silahkan cek syarat pendaftaran pada masing-masing Instansi yang membuka pendaftaran SSCASN 2023.",
 				},
 				{
-					title: "Apakah Akreditasi Jurusan dan Akreditasi Kampus yang digunakan saat mendaftar adalah status akreditasi pada saat pelamar lulus atau akreditasi saat ini?",
-					content: "Akreditasi Jurusan dan Akreditasi Kampus yang diakui adalah status akreditasi yang tertera pada saat kelulusan sesuai dengan tanggal ijazah.",
+					title:
+						"Apakah Akreditasi Jurusan dan Akreditasi Kampus yang digunakan saat mendaftar adalah status akreditasi pada saat pelamar lulus atau akreditasi saat ini?",
+					content:
+						"Akreditasi Jurusan dan Akreditasi Kampus yang diakui adalah status akreditasi yang tertera pada saat kelulusan sesuai dengan tanggal ijazah.",
 				},
 				{
-					title: "Apakah diperbolehkan memilih formasi yang lebih rendah dari dari ijazah yang saya miliki? (Misal: Saya memiliki ijazah S2 untuk melamar formasi S1)?",
+					title:
+						"Apakah diperbolehkan memilih formasi yang lebih rendah dari dari ijazah yang saya miliki? (Misal: Saya memiliki ijazah S2 untuk melamar formasi S1)?",
 					content: "Gunakan ijazah untuk melamar sesuai dengan formasi dan kualifikasi pendidikan yang dipersyaratkan.",
 				},
 				{
@@ -335,7 +371,11 @@ export default function Cpns() {
 					content: (
 						<p>
 							Silahkan akses halaman Helpdesk SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>
@@ -348,7 +388,11 @@ export default function Cpns() {
 					content: (
 						<p>
 							Silahkan akses halaman Helpdesk SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>{" "}
@@ -361,7 +405,11 @@ export default function Cpns() {
 					content: (
 						<p>
 							Silahkan akses halaman Helpdesk SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://helpdesk-sscasn.bkn.go.id">
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://helpdesk-sscasn.bkn.go.id"
+							>
 								{" "}
 								https://helpdesk-sscasn.bkn.go.id{" "}
 							</a>
@@ -385,9 +433,14 @@ export default function Cpns() {
 					title: "Apakah pelamar dapat mengajukan sanggahan setelah pengumuman seleksi ?",
 					content: (
 						<p>
-							Apabila setelah dilakukan pengumuman seleksi administrasi terdapat pelamar yang keberatan terhadap hasil keputusan Instansi, pelamar dapat mengajukan sanggahan paling
-							lama 3 (tiga) hari kalender setelah pengumuman hasil seleksi administrasi dengan login ke halaman SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://daftar-sscasn.bkn.go.id/login">
+							Apabila setelah dilakukan pengumuman seleksi administrasi terdapat pelamar yang keberatan terhadap hasil
+							keputusan Instansi, pelamar dapat mengajukan sanggahan paling lama 3 (tiga) hari kalender setelah
+							pengumuman hasil seleksi administrasi dengan login ke halaman SSCN di
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://daftar-sscasn.bkn.go.id/login"
+							>
 								https://daftar-sscasn.bkn.go.id/login
 							</a>
 							, lalu mengisikan sanggahannya dengan menjabarkan kronologis dan mengunggah bukti dukung yang diperlukan.{" "}
@@ -398,9 +451,14 @@ export default function Cpns() {
 					title: "Apakah pelamar dapat mengajukan sanggahan setelah pengumuman seleksi SKB?",
 					content: (
 						<p>
-							Apabila setelah dilakukan pengumuman seleksi SKB terdapat pelamar yang keberatan terhadap hasil keputusan Instansi, pelamar dapat mengajukan sanggahan paling lama 3
-							(tiga) hari kalender setelah pengumuman hasil seleksi SKB dengan login ke halaman SSCN di
-							<a target="_blank" className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]" href="https://daftar-sscasn.bkn.go.id/login">
+							Apabila setelah dilakukan pengumuman seleksi SKB terdapat pelamar yang keberatan terhadap hasil keputusan
+							Instansi, pelamar dapat mengajukan sanggahan paling lama 3 (tiga) hari kalender setelah pengumuman hasil
+							seleksi SKB dengan login ke halaman SSCN di
+							<a
+								target="_blank"
+								className="text-blue-600 hover:text-blue-800 hover:text-[1.05rem]"
+								href="https://daftar-sscasn.bkn.go.id/login"
+							>
 								https://daftar-sscasn.bkn.go.id/login
 							</a>
 							, lalu mengisikan sanggahannya dengan menjabarkan kronologis dan mengunggah bukti dukung yang diperlukan.{" "}
@@ -454,19 +512,23 @@ export default function Cpns() {
 		});
 	};
 	return (
-		<div className="w-screen h-screen scroll-smooth">
+		<div className="w-screen h-screen scroll-smooth dark:bg-[#353941]">
 			<div className="container mx-auto p-10 md:px-20 grid gap-10">
-				<h1 className="text-center font-bold text-3xl text-[#40588A]">Frequently Asked Questions (CPNS)</h1>
+				<h1 className="text-center font-bold text-3xl text-[#40588A] dark:text-gray-200">
+					Frequently Asked Questions (CPNS)
+				</h1>
 
 				<div className="grid grid-cols-12 gap-5">
 					{/* SIDEBAR */}
 					<div className="col-span-4 flex flex-col">
-						<div className="w-full flex flex-col border-2 rounded-lg">
+						<div className="w-full flex flex-col border-2 rounded-md">
 							{link.map((e, i) => (
 								<span
 									key={i}
 									onClick={() => scroolTo(e.id)}
-									className={`text-blue-700 cursor-pointer hover:text-blue-800 hover:font-semibold px-4 py-2 ${e.title !== "Syarat Daftar" && "border-b-2"}`}
+									className={`text-blue-700 dark:text-neutral-100 cursor-pointer hover:text-blue-800 dark:hover:text-neutral-50 hover:font-bold px-4 py-2 ${
+										e.title !== "Syarat Daftar" && "border-b-2"
+									}`}
 								>
 									{e.title}
 								</span>
@@ -475,14 +537,19 @@ export default function Cpns() {
 					</div>
 
 					{/* ACCORDION */}
-					<div className="col-span-8 border-2 rounded-lg px-3 h-[350px] md:h-[400px] overflow-y-scroll flex flex-col gap-5">
+					<div className="col-span-8 border-2 rounded-md px-3 h-[350px] md:h-[400px] overflow-y-scroll flex flex-col gap-5">
 						{data.map((e, i) => (
 							<div key={i} id={e.id}>
-								<h1 className="text-xl font-bold text-slate-700 px-3 py-2">{e.section}</h1>
+								<h1 className="text-xl font-bold text-slate-700 dark:text-neutral-200 px-3 py-2">{e.section}</h1>
 
 								<div className="bg-[#EFFDF5]">
 									{e.data.map((accordion, index) => (
-										<Accordion key={index} title={accordion.title} isOpen={openIndex === index} onClick={() => handleAccordionClick(index)}>
+										<Accordion
+											key={index}
+											title={accordion.title}
+											isOpen={openIndex === index}
+											onClick={() => handleAccordionClick(index)}
+										>
 											{accordion.content}
 										</Accordion>
 									))}
