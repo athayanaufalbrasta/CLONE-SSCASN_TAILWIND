@@ -61,7 +61,7 @@ export default function Nav() {
     });
   }
 	return (
-		<nav className={`w-screen shadow-lg grid transition-transform transform dark:bg-[#26282B] dark:text-white z-[9999] relative`}>
+		<nav className={`w-screen shadow-lg grid transition-transform transform dark:bg-[#26282B] dark:text-white z-[99] relative`}>
 			{/* LG KEATAS */}
 			<div className="hidden lg:flex justify-between font-bold items-center ml-6">
 				<img src={Logo} className="w-24" alt="" />
@@ -148,6 +148,7 @@ export default function Nav() {
 					{path.map((e, i) => (
 						<NavLink
 							className={`${e.name === "SSCASN" && "bg-blue-600 hover:bg-blue-400 text-white text-center py-4"} px-4`}
+							// onClick={e.child.length !== 0 ? () => handleIsClick(e.name) : null}
 							onMouseEnter={e.child.length !== 0 ? () => handleIsClick(e.name) : null}
 							onMouseLeave={e.child.length !== 0 ? () => handleIsClick(e.name) : null}
 							key={i}
@@ -165,10 +166,10 @@ export default function Nav() {
 							{e.child.length !== 0 && (
 								// MAKA BUAT SEBUAH DIV UNTUK MENAMPUNG ELEMENT YANG ADA DIDALAM CHILD NYA
 								<div
-									className={`${(e.name === "FAQ" ? faq : sscasn) ? "flex" : "hidden"} flex-col rounded-lg shadow-lg`}
+									className={`${(e.name === "FAQ" ? faq : sscasn) ? "flex" : "hidden"} ${e.name === "SSCASN" && 'bg-blue-500'} ${e.name === "FAQ" && 'bg-gray-700'} flex-col rounded-lg shadow-lg`}
 								>
 									{e.child.map((x, y) => (
-										<NavLink className={"hover:bg-slate-200 px-4 py-2 rounded-lg"} key={y} to={x.path}>
+										<NavLink className={"hover:bg-slate-200 hover:text-slate-900 px-4 py-2 rounded-lg"} key={y} to={x.path}>
 											{x.name}
 										</NavLink>
 									))}

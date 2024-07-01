@@ -5,11 +5,17 @@ export default function About() {
 			<div className="container mx-auto py-10 text-white grid grid-cols-1 gap-8">
 				<div className="grid grid-cols-1 gap-8">
 					<div className="grid grid-cols-1 gap-8 text-base md:text-[1.1rem]">
-						<h3 className="text-2xl md:text-[1.8rem] font-bold text-center">Penyesuaian Rentang Waktu Pendaftaran Seleksi PPPK Guru Tahun Anggaran 2023</h3>
+						<h3 className="text-2xl md:text-[1.8rem] font-bold text-center">
+							Penyesuaian Rentang Waktu Pendaftaran Seleksi PPPK Guru Tahun Anggaran 2023
+						</h3>
 
 						<p>
 							<b>Informasi Selengkapnya : </b>
-							<a className="underline" target="_blank" href="https://drive.google.com/file/d/1kxhOzjqthGvEHQFETjMZAeMLsX7sCS8C/view">
+							<a
+								className="underline"
+								target="_blank"
+								href="https://drive.google.com/file/d/1kxhOzjqthGvEHQFETjMZAeMLsX7sCS8C/view"
+							>
 								Penyesuaian Rentang Waktu Pendaftaran Seleksi PPPK Guru
 							</a>
 							&nbsp;Penyesuaian Rentang Waktu Pendaftaran Seleksi PPPK Guru
@@ -17,11 +23,14 @@ export default function About() {
 					</div>
 
 					<div className="grid grid-cols-1 gap-8 text-base md:text-[1.1rem]">
-						<h1 className="text-2xl md:text-[1.8rem] font-bold text-center">Perubahan Jadwal Pelaksanaan Seleksi CASN Tahun Anggaran 2023</h1>
+						<h1 className="text-2xl md:text-[1.8rem] font-bold text-center">
+							Perubahan Jadwal Pelaksanaan Seleksi CASN Tahun Anggaran 2023
+						</h1>
 
 						<p>
-							Sehubungan masih berlangsungnya proses optimalisasi PPPK Teknis TA 2022 di sejumlah instansi sesuai Kepmenpanrb 571/2023 dan proses verval kebutuhan formasi CASN 2023
-							di masing-masing instansi, Panselnas melalui BKN menjadwalkan ulang pembukaan pendaftaran seleksi CASN 2023.
+							Sehubungan masih berlangsungnya proses optimalisasi PPPK Teknis TA 2022 di sejumlah instansi sesuai
+							Kepmenpanrb 571/2023 dan proses verval kebutuhan formasi CASN 2023 di masing-masing instansi, Panselnas
+							melalui BKN menjadwalkan ulang pembukaan pendaftaran seleksi CASN 2023.
 						</p>
 						<p>
 							Informasi Selengkapnya :{" "}
@@ -32,27 +41,28 @@ export default function About() {
 					</div>
 
 					<div className="grid grid-cols-1 gap-8 text-base md:text-[1.1rem]">
-						<h1
-							className="text-2xl md:text-[1.8rem] font-bold text-center"
-						>
-							Implementasi Materai Elektronik
-						</h1>
+						<h1 className="text-2xl md:text-[1.8rem] font-bold text-center">Implementasi Materai Elektronik</h1>
 
 						<p>
-							Berdasarkan Surat Edaran Plt. Kepala BKN Nomor 9 Tahun 2021 Tentang Penggunaan Materai Pada Dokumen Seleksi Calon Aparatur Sipil Negara, dimana terdapat beberapa
-							aturan dalam penggunaan materai, antara lain :
+							Berdasarkan Surat Edaran Plt. Kepala BKN Nomor 9 Tahun 2021 Tentang Penggunaan Materai Pada Dokumen
+							Seleksi Calon Aparatur Sipil Negara, dimana terdapat beberapa aturan dalam penggunaan materai, antara lain
+							:
 						</p>
 						<p>
-							1. Wajib menggunakan materai tempel atau kertas materai yang masih baru atau belum pernah digunakan sebelumnya / materai bekas pakai. <br />
-							2. Tidak diperkenankan menggunakan materai yang bentuk dan cirinya tidak sesuai ketentuan peraturan perundang-undangan, misalnya materai berupa hasil unduh atau hasil
-							edit gambar dari internet dan sejenisnya.
+							1. Wajib menggunakan materai tempel atau kertas materai yang masih baru atau belum pernah digunakan
+							sebelumnya / materai bekas pakai. <br />
+							2. Tidak diperkenankan menggunakan materai yang bentuk dan cirinya tidak sesuai ketentuan peraturan
+							perundang-undangan, misalnya materai berupa hasil unduh atau hasil edit gambar dari internet dan
+							sejenisnya.
 						</p>
 						<p>
-							Sebagai tindak lanjut dari Surat Edaran Tersebut, SSCASN pada tahun ini membuat kebijakan pada dokumen yang menggunakan materai akan diimplementasikan penggunaan
-							materai elektronik (e-materai) yang terintegrasi SSCASN dengan PERUM PERURI dalam pembubuhan materainya.
+							Sebagai tindak lanjut dari Surat Edaran Tersebut, SSCASN pada tahun ini membuat kebijakan pada dokumen
+							yang menggunakan materai akan diimplementasikan penggunaan materai elektronik (e-materai) yang
+							terintegrasi SSCASN dengan PERUM PERURI dalam pembubuhan materainya.
 						</p>
 						<p>
-							Setelah dilakukan pembelian/top up kuota materai, pembubuhan e-materai dapat dilakukan langsung pada &nbsp;
+							Setelah dilakukan pembelian/top up kuota materai, pembubuhan e-materai dapat dilakukan langsung pada
+							&nbsp;
 							<a href="https://meterai-elektronik.com">
 								<u>https://meterai-elektronik.com</u>
 							</a>{" "}
