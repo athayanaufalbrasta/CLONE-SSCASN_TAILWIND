@@ -43,12 +43,6 @@ export default function Register() {
 			return;
 		}
 
-		// CEK NOMOR KTP APAKAH SUDAH TERDAFTAR
-		if (checkNoKtp !== -1) {
-			setKtpField(true);
-			return;
-		}
-
 		// CEK KONFIRMASI PASS
 		if (pass !== ConfirmPass) {
 			setSamePass(true);
@@ -136,7 +130,7 @@ export default function Register() {
 						</div>
 
 						<div className="grid">
-							<label className="text-xl font-medium">Nomor Lengkap sesuai KTP</label>
+							<label className="text-xl font-medium">Nama Lengkap sesuai KTP</label>
 							<input
 								type="text"
 								className="dark:focus:bg-neutral-100 dark:text-black ring-white dark:bg-neutral-300 px-4 py-1 border border-red-600 focus:outline-none focus:outline outline-blue-600"
