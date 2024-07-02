@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/" },
+    { "source": "/register", "destination": "/" },
+    { "source": "/alur", "destination": "/" },
+    { "source": "/cpns", "destination": "/" },
+    { "source": "/pppk-guru", "destination": "/" },
+    { "source": "/pppk-teknis", "destination": "/" },
+    { "source": "/pppk-tenaga-kesehatan", "destination": "/" },
+    { "source": "/dasar-hukum", "destination": "/" },
+    { "source": "/buku-petunjuk", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
